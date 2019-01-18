@@ -1,55 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Page Title</title>
-    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- page title -->
+    <title>Raasikh Booley - CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- css style sheet link -->
+    <link rel="stylesheet" type="text/css" media="screen" 
+    href="css/style.css" />
+    <!-- java script link -->
+    <script src="main.js"></script>
+    <!-- google font style link -->
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
-            <img class="picture" src="images/source-code.png" alt="">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#news">News</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#about">About</a></li>
-            </ul>
-        </div>    
-        
-        <div class="header">
-            <h1 id="h1">Title</h1>
-            <p>Sub-Title</p>
+    
+          
+    <div id="container">
+        <!-- page top section starts -->
+        <div class="head">
+            <h1>Welcome to My online CV</h1> 
+                <h3>Scroll within the Pink block to read more</h3> 
         </div>
+        <!-- page top section ends -->
 
-        <div id="home">
-            <h1>Home</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quo corrupti doloribus nostrum possimus, dicta dolor explicabo blanditiis! Quas dolor, in incidunt omnis accusamus delectus sed dignissimos molestias dolores magnam!</p>
-        </div>
-        <div id="news">
-                <h1>News</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quo corrupti doloribus nostrum possimus, dicta dolor explicabo blanditiis! Quas dolor, in incidunt omnis accusamus delectus sed dignissimos molestias dolores magnam!</p>
-        </div>
-        <div id="contact">
-                <h1>Contact</h1>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit possimus ea autem. Placeat enim consequuntur voluptatibus molestias odio, natus nesciunt id dolore sed eaque alias distinctio eos sequi, error perferendis.</p>
-                    <!-- <p>Name: Raasikh Booley</p>
-                    <p>Phone: 0725194919</p>
-                    <p>Email: raasikh.booley@gmail.com</p>
-                    <p>Location: Cape Town, South Africa</p> -->
-        </div> 
-        <div id="about">
-                <h1>About</h1>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis quo corrupti doloribus nostrum possimus, dicta dolor explicabo blanditiis! Quas dolor, in incidunt omnis accusamus delectus sed dignissimos molestias dolores magnam!</p>
-        </div>
-            
-        <!-- <div class="main">
-            
-        </div>  -->
-            
-        <div class="footer">
-            <strong>Socials</strong>
-            <p><small>Developed by Raasikh Booley</small></p>
-        </div>
+        <!-- navigation bar and links starts  -->
+        <nav class="navbar">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- navigation bar and links ends  -->
+
+        <!-- card section starts -->
+        <section class="card">
+            <!-- top line section of the card starts -->
+            <header class="header">
+                <div class="card_name">
+                    <h1>Info Card</h1>
+                </div>    
+                
+                <!-- download cv button -->
+                <div class="cv-pdf-link">
+                    <button>Download CV</button>
+                </div>
+            </header>
+            <!-- top line section of the card ends -->
+
+        <!-- name, title, picture and information section of the card starts -->
+        <main class="main">
+            <!-- name and job title -->
+            <div id="title">
+                    <h2>Raasikh Booley</h2>
+                    <p>Junior Web Developer</p>
+            </div>
+            <!-- picture/photo section starts -->
+            <img class="photo" src="img/download.jpg" alt="">
+            <!-- picture/photo section ends -->
+        
+        <!-- information section starts -->
+        <article class="content">
+            <h3 id="about">About</h3>
+                <p>Raasikh Booley is a Web Developer, Animator and Game Develeper/Designer. After matriculating in 2014, he took a gap year in 2015, and the following year in 2016, he attended City Varsity "school of media and arts" where he recieved a diploma in Animation & Game Design.Now having finished a 6 month Coding Course at Life Choices, he sets his sights on tackling a career in the Gaming Industry, in hopes of making it big.</p>
+
+            <h3 id="education">Education</h3>
+                <p>Darul Islam High School - Matric Certificate (2014)</p>
+                <p>City Varsity - Animation Diploma (2017)</p>
+                <p>Life Choices - Coding Certificate (2019)</p>
+
+            <h3 id="projects">Projects</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam maxime culpa et, rem fuga illum, sed exercitationem vitae porro cumque hic voluptatem esse perspiciatis at aut voluptates quos adipisci nesciunt!</p>
+                
+            <h3 id="contact">Contact</h3>
+                <p>Cell - 0725194919</p>
+                
+                <p>Email - raasikh.booley@gamil.com</p>
+                    
+                <p>Location - South Africa, Cape Town, Athlone</p>
+                    
+        </article>
+        <!-- information section ends -->
+    
+        </main>
+        <!-- name, title, picture and information section of the card ends -->
+        </section>
+        <!-- card section ends -->
+    
+    <!-- page bottom section starts -->
+    <footer class="footer">
+        <h4>Developed by Raasikh Booley</h4>
+    </footer>
+    <!-- page bottom section ends -->
     </div>
+    
 </body>
 </html>
